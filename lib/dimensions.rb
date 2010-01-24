@@ -121,7 +121,7 @@ module Artworker
     end
 
     def convert_to_centimeters(dimension)
-      float_value = (dimension.to_f * 2.54).round(2)
+      float_value = (Artworker::Fractions.to_f(dimension).to_f * 2.54).round(2)
       float_value = float_value.to_i if float_value == float_value.to_i
       return float_value
     end
