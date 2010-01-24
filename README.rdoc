@@ -31,6 +31,7 @@ Here is a sample migration that includes the basic columns, optional columns, an
     def self.up
       create_table :artworks do |t|
         t.string :title
+        t.string :date
         t.decimal :height, :null => false, :default => 0
         t.decimal :width, :null => false, :default => 0
         t.decimal :depth, :null => false, :default => 0
