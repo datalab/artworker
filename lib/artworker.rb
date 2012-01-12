@@ -1,7 +1,8 @@
-require 'dimensions'
-require 'fractions'
-require 'titles'
-require 'artists'
+require "artworker/version"
+require "artworker/dimensions"
+require "artworker/fractions"
+require "artworker/titles"
+require "artworker/artists"
 
 module Artworker
   

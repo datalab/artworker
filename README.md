@@ -1,14 +1,14 @@
-=Artworker
+#Artworker
 
 The Artworker plugin provides many of the basic functions needed when dealing with a collection of different fine artwork and artists. The plugin does this by providing custom attributes in an easy to use way that are universally needed (based on museum standards) when dealing with artwork and artists. 
 
-==Installation
+##Installation
 
   script/plugin install git://github.com/datalab/artworker.git
 
-==Usage
+##Usage
 
-===In Your Artwork Model
+###In Your Artwork Model
 
 In the migration file for your artwork model, make sure you have columns for the following standard artwork attributes:
 
@@ -86,7 +86,7 @@ You should now be able to use the attributes that Artworker provides. Below is a
 - framed_dimensions_in_inches
 - framed_dimensions_in_centimeters
 
-===In Your Artist Model
+###In Your Artist Model
 
 In the migration file for your artist model, make sure you have columns for the following standard artist attributes:
 
@@ -130,7 +130,7 @@ You should now be able to use the attributes that Artworker provides. Below is a
 - fullname_with_dates
 - fullname_with_nationality_and_dates
 
-==Troubleshooting and FAQs
+##Troubleshooting and FAQs
 
 <b>Why did you make this plugin?</b>
 
@@ -170,7 +170,7 @@ Everybody has their own methods for working with images, so it doesn't seem too 
 
 They are coming...
 
-==Development
+##Development
 This project can be found on github at the following URL.
 
 http://github.com/datalab/artworker/

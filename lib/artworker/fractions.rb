@@ -10,7 +10,7 @@ module Artworker
       end
     end
   
-    def self.to_f(value)
+    def self.to_f(value=0)
       result = 0
     
       if mixed_fraction?(value)
@@ -29,7 +29,7 @@ module Artworker
       result
     end
  
-    def self.to_s(value, args={})
+    def self.to_s(value=0, args={})
       whole_number = value.to_f.truncate.to_i
     
       if whole_number == 0
@@ -48,7 +48,7 @@ module Artworker
       end 
     end
   
-    def self.round_to_nearest_fraction(value, to_nearest_fraction)
+    def self.round_to_nearest_fraction(value=0, to_nearest_fraction)
       if value.is_a? String
         to_nearest_float = to_f(to_nearest_fraction)
  
