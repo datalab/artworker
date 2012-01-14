@@ -1,10 +1,1 @@
 .DS_Store
-*.log
-*.sqlite3
-*.gem
-.rvmrc
-.bundle
-Gemfile.lock
-pkg/*
-spec/database.yml
-
