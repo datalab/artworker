@@ -17,10 +17,19 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
-
-  # specify any dependencies here; for example:
+  
+  # specify development and runtime depencies here;
+  s.add_dependency "railties", ">= 3.1.0"
+  s.add_dependency "activerecord", ">= 3.1.0"
+  s.add_dependency "activesupport", ">= 3.1.0"
+    
+  # specify any dependencies here;
   s.add_development_dependency "rspec"
   s.add_development_dependency "rake"
+  s.add_development_dependency "factory_girl_rails"
+  s.add_development_dependency "sqlite3"
 
+  # specify any runtime dependencies here;
   # s.add_runtime_dependency "rest-client"
+
 end

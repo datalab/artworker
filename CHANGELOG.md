@@ -1,5 +1,9 @@
 #Artworker Changelog
 
+##0.2.1 (January 14th, 2012)
+
+Refactored the gem; Wrote tests; prepare for release to rubygems.org
+
 ##0.2.0 (January 12th, 2012)
 
 Converted the plugin to a gem.
