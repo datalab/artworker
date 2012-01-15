@@ -35,3 +35,7 @@
 #footer .copyright{
 	display: block;
 }
+
+code {
+  background-color: transparent;
+}
