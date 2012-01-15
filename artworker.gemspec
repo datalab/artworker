@@ -7,11 +7,11 @@ Gem::Specification.new do |s|
   s.version     = Artworker::VERSION
   s.authors     = ["dataLAB"]
   s.email       = ["info@datalabprojects.com"]
-  s.homepage    = "https://github.com/datalab/Artworker"
-  s.summary     = %q{Gem that provides custom attributes for fine artwork and artist.}
-  s.description = %q{Gem that provides custom attributes for fine artwork and artist.}
+  s.homepage    = "http://artworker.datalabprojects.com"
+  s.summary     = %q{A ruby gem to help with common artist and artwork attributes.}
+  s.description = %q{A ruby gem to help with common artist and artwork attributes.}
   
-  s.rubyforge_project = "Artworker"
+  s.rubyforge_project = "artworker"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
