@@ -1,0 +1,37 @@
+#container{
+	width: 820px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#header{
+	margin-top: 50px;
+	height: 240px;
+	margin-bottom: 40px;
+}
+
+#header .logo{
+	float: left;
+}
+
+#header h1{
+	font-weight: bold;
+	font-size: 5em;
+	float: left;
+	margin-top: 75px;
+	margin-left: 25px;
+}
+#header .description{
+	float: left;
+	margin-left: 25px;
+	font-style: italic;
+}
+
+#footer{
+	margin-bottom: 50px;
+	margin-top: 40px;
+	text-align: center;
+}
+#footer .copyright{
+	display: block;
+}
