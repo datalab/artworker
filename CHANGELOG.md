@@ -1,5 +1,9 @@
 #Artworker Changelog
 
+##0.2.2 (January 15th, 2012)
+
+Clean-up, and project page integration.
+
 ##0.2.1 (January 14th, 2012)
 
 Refactored the gem; Wrote tests; prepare for release to rubygems.org
