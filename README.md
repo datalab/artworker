@@ -36,12 +36,12 @@ Here is a sample migration that includes the basic columns, optional columns, an
   	    create_table :artworks do |t|
   	      t.string :title
   	      t.string :date
-  	      t.decimal :height, :null => false, :default => 0
-  	      t.decimal :width, :null => false, :default => 0
-  	      t.decimal :depth, :null => false, :default => 0
-  	      t.decimal :framed_height, :null => false, :default => 0
-  	      t.decimal :framed_width, :null => false, :default => 0
-  	      t.decimal :framed_depth, :null => false, :default => 0
+  	      t.decimal :height, :null => false, :default => 0, :scale => 4, :precision => 10
+  	      t.decimal :width, :null => false, :default => 0, :scale => 4, :precision => 10
+  	      t.decimal :depth, :null => false, :default => 0, :scale => 4, :precision => 10
+  	      t.decimal :framed_height, :null => false, :default => 0, :scale => 4, :precision => 10
+  	      t.decimal :framed_width, :null => false, :default => 0, :scale => 4, :precision => 10
+  	      t.decimal :framed_depth, :null => false, :default => 0, :scale => 4, :precision => 10
   	      t.boolean :use_fractions, :default => true, :null => false
   	      t.boolean :use_metric, :default => false, :null => false
   	      t.timestamps
